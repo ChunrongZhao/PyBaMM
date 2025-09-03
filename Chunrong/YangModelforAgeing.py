@@ -1,5 +1,8 @@
 import pybamm as pb
 
+# http://dx.doi.org/10.1016/j.jpowsour.2017.05.110
+# https://doi.org/10.1016/j.jpowsour.2018.09.069
+
 class YangPlatingSEI(pb.BaseSubModel):
     """
     Yang et al. 2017: SEI growth + Li plating (irreversible) + porosity drop
